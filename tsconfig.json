@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src", // Projenizin ana dosya yolu
+    "paths": {
+      "*": ["*"]
+    },
+    "module": "ESNext",
+    "moduleResolution": "node", // 'nodenext' yerine 'node' kullanıyoruz
+    "strict": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
