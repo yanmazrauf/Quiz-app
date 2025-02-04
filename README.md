@@ -8,17 +8,23 @@ This project is a web-based quiz platform designed to allow instructors to creat
 
 The platform consists of two main user roles:
 
-Instructor Role:
+### Instructor Role:
+
 -Instructors can add, edit, and delete quiz questions. Questions can be multiple-choice or true/false. Questions are stored in Firebase Firestore. The instructor dashboard lists all created questions.
 
-Student Role:
+### Student Role:
+
 -Students can access the available quiz and answer the questions. The quiz consists of multiple-choice and true/false questions. After submission, the student's score is calculated based on correct answers. Results are displayed as a percentage.
 
-Authentication System:
+### Authentication System:
+
 -Users can sign up and log in securely using Firebase Authentication.The system differentiates between students and instructors to provide appropriate access.
 
-Real-Time Updates: 
+### Real-Time Updates: 
+
 -Any changes made by the instructor to the quiz are instantly reflected for students.
+
+## How It Works
 
 ![image](https://github.com/user-attachments/assets/b67f8a21-2128-407e-8528-1d533b8b7e00)
 
