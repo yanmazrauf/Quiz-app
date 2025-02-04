@@ -26,15 +26,21 @@ The platform consists of two main user roles:
 
 ## How It Works
 
+### Registration
+
 When a user first visits the platform, they are greeted with a login and signup page. Only students can sign up by creating an account, while instructors must log in with pre-existing credentials. Firebase Authentication manages user credentials securely. Upon successful login, the system determines the user’s role and redirects them accordingly.
 
 ![image](https://github.com/user-attachments/assets/b67f8a21-2128-407e-8528-1d533b8b7e00)
 
 ![image](https://github.com/user-attachments/assets/754d252e-0586-4420-a6cd-e5a51cfdf129)
 
+### Instructor Page
+
 Instructors are taken to the Instructor Panel, where they can manage quiz questions. They can add new questions by filling out a form that includes the question text, type (multiple-choice or true/false), answer options, and the correct answer. Once a question is created, it is stored in Firebase Firestore and displayed in a table where instructors can review and delete questions as needed. The interface provides a structured and efficient way to manage quizzes.
 
 ![image](https://github.com/user-attachments/assets/99f56d44-a625-431c-99fe-c89eb9c1d48a)
+
+### Student Page
 
 Students, on the other hand, are directed to the Student Quiz Interface, where they can participate in the quiz. The system retrieves all available quiz questions from Firestore and displays them one by one. Students select their answers using radio buttons and submit their responses when they are ready. The interface ensures clarity by visually separating each question for a seamless experience.
 
