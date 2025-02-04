@@ -1,3 +1,38 @@
+# Quick Quiz Platform
+
+## Overview
+
+This project is a web-based quiz platform designed to allow instructors to create quizzes and students to take them in an interactive environment. The application provides a streamlined experience for both roles, enabling efficient question management, quiz participation, and result calculation. The platform is built using React for the frontend, Firebase as the backend database and authentication service, and Material UI for styling.
+
+## Functionality
+
+The platform consists of two main user roles:
+
+Instructor Role:
+-Instructors can add, edit, and delete quiz questions. Questions can be multiple-choice or true/false. Questions are stored in Firebase Firestore. The instructor dashboard lists all created questions.
+
+Student Role:
+-Students can access the available quiz and answer the questions. The quiz consists of multiple-choice and true/false questions. After submission, the student's score is calculated based on correct answers. Results are displayed as a percentage.
+
+Authentication System:
+-Users can sign up and log in securely using Firebase Authentication.The system differentiates between students and instructors to provide appropriate access.
+
+Real-Time Updates: 
+-Any changes made by the instructor to the quiz are instantly reflected for students.
+
+![image](https://github.com/user-attachments/assets/b67f8a21-2128-407e-8528-1d533b8b7e00)
+
+![image](https://github.com/user-attachments/assets/754d252e-0586-4420-a6cd-e5a51cfdf129)
+
+![image](https://github.com/user-attachments/assets/99f56d44-a625-431c-99fe-c89eb9c1d48a)
+
+![image](https://github.com/user-attachments/assets/dc502a9a-a6b7-448c-8286-7ab20e0f6e7e)
+
+![image](https://github.com/user-attachments/assets/083882c2-12b0-4a64-8483-db8fe0541e46)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
