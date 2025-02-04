@@ -52,8 +52,10 @@ After submission, the system validates that all questions have been answered bef
 
 Once the quiz is completed, users can log out using the Logout button located in the navigation bar. This ensures they are securely signed out and redirected to the login page. The entire process is designed to be intuitive and interactive, allowing students to participate in quizzes effortlessly while instructors efficiently manage questions.
 
-The available registered instructor credentials are:
+#### The available registered instructor credentials are:
+
 Email: rauf@gmail.com
+
 Password: rauf1234
 
 
